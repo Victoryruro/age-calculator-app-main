@@ -1,0 +1,170 @@
+@font-face {
+    font-family: extra-bold;
+    src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf");
+}
+@font-face {
+    font-family: myfont;
+    src: url("./assets/fonts/Poppins-Light.ttf");
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    background-color: hsl(0, 0%, 94%);
+    font-family: myfont;
+    
+}
+main{
+    width: inherit;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section{
+    width: 80%;
+    min-width: 300px;
+    max-width: 472px;
+    height: 400px;
+    padding: 20px 40px;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 130px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+   
+    padding-bottom: 20px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    gap: 30px;
+    
+}
+
+.input input{
+    width: 80px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-top: 5px;
+    
+    
+    
+}
+label{
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: hsl(0, 1%, 44%);
+    text-transform: uppercase;
+    font-family: extra-bold;
+}
+
+.input input:active, .input input:focus{
+    outline: none;
+    border: 1.5px inset hsl(258, 35%, 60%);
+    color:hsl(258, 35%, 60%);
+}
+.error{
+  color: red;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 2px;
+}
+
+.div-button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+hr{
+    flex-basis: 90%;
+    opacity: 0.5;
+    height: 0px;
+}
+button{
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50px;
+    /* padding: 14px; */
+    border: 1px solid;
+    width: 70px;
+    height: 70px;
+    border: none;
+    
+}
+button:hover{
+    background-color:hsl(0, 0%, 0%);
+    cursor: pointer;
+}
+button:active, button:focus{
+    outline: none;
+    background-color:hsl(0, 0%, 0%);
+    cursor: pointer;
+}
+.div-button img{
+    width: 30px;
+    height: 30px;
+}
+.values{
+    font-size:24px;
+    font-weight: 900;
+    font-family: extra-bold;
+}
+.values p{
+    margin: -18px;
+    padding: 0px;
+    font-size: 68px;
+    
+    
+}
+.colour-purple{
+    color: hsl(259, 100%, 65%);
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        justify-content: unset;
+    }
+    section{
+       
+        height: 450px;
+        padding: 20px 20px;
+    }
+    .input{
+        align-items: center;
+    }
+    .input input{
+        width: 70px;
+        padding: 17px 10px;
+    }
+    .div-button{
+        
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 50px 0px;
+    }
+    button{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .values p {
+        margin: -18px;
+        padding: 5px 20px;
+        font-size: 50px;
+    }
+   
+
+}
+
+/* {} */

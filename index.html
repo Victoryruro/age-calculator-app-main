@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+  <script src="./script.js" defer></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Age Caculator</h1>
+    <section>
+      <form class="input">
+        <div id="container">
+          <div class="input-container">
+            <label for="Day">Day</label><br>
+            <input type="text" name="DD" id="day" inputmode="numeric" maxlength="2" placeholder="DD" required>
+            <small class="error" id="dayError"></small>
+          </div>
+          <div class="inputcontainer">
+            <label for="Month">Month</label><br>
+            <input type="text" name="MM" id="month" inputmode="numeric" maxlength="2" placeholder="MM" required>
+            <small class="error" id="monthError"></small>
+          </div>
+          <div class="inputcontainer">
+            <label for="Year">Year</label><br>
+            <input type="text" name="YYYY" id="year" inputmode="numeric" maxlength="4" placeholder="YYYY" required>
+            <small class="error" id="yearError"></small>
+          </div>
+
+        </div>
+
+        <div class="div-button">
+          <hr>
+          <button type="button"><img src="./assets/images/icon-arrow.svg" alt="arrow-button"></button>
+        </div>
+        
+
+      </form>
+      <!-- <div class="div-button">
+        <hr><button type="submit"><img src="./assets/images/icon-arrow.svg" alt="button"></button>
+      </div> -->
+      <div class="values">
+        <p id="years"><span class="colour-purple">--</span> years</p>
+        <p id="months"><span class="colour-purple">--</span> months</p>
+        <p id="days"><span class="colour-purple">--</span> days</p>
+      </div>
+    </section>
+  </main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://diemuodeke-victory.netlify.app/">victory Diemuodeke</a>.
+  </div>
+</body>
+</html>
