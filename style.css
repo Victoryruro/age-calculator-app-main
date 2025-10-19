@@ -27,7 +27,7 @@ main{
 section{
     width: 80%;
     min-width: 300px;
-    max-width: 472px;
+    max-width: 600px;
     height: 400px;
     padding: 20px 40px;
     background-color: hsl(0, 0%, 100%);
