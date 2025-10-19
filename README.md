@@ -42,9 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [https://www.frontendmentor.io/solutions/age-calculator-app-i40Mmy0Ji8]
+- Live Site URL: [https://victoryruro.github.io/age-calculator-app-main/]
 ## My process
 
 ### Built with
